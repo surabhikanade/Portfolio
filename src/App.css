@@ -1,0 +1,248 @@
+.HeaderApp{
+  background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content{
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color:white;
+  text-align:center;
+}
+
+.bgcolor{
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+/*///////////////////////////////////////////////////////home page start//////////////////////////////////////////////////////////////////*/
+.grid{
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.image{
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding:0.01em;
+  
+}
+.center{
+  display: block;
+  margin: auto;
+  border-radius: 2em; 
+  padding:0.2em;
+  padding-top: 0.2em;
+  width: 250px;
+}
+.banner-text{
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 5%;
+  padding:1em;
+  border-radius: 2em;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.banner-text hr{
+  width: 50%;
+  border-top:white dotted;
+  margin: auto;
+}
+.banner-text p{
+  padding: 0.2em;
+  margin: auto;
+}
+
+.icons{
+  font-size: 40px;
+}
+.icons span{
+  padding: 20px;
+  color:aqua;
+}
+/*/////////////////////////////////////////////home page end /////////////////////////////////////////////////////////////////////////////////////*/
+
+.marquee{
+
+  font-family: cursive;
+  font-weight: bolder;
+ 
+}
+
+/*/////////////////////////////////////////////CONTACT PAGE START/////////////////////////////////////////////////////////////////////////////////*/
+.contact-main {
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding-top: 3em;
+}
+.contact-grid {
+  background-color:black;
+  color:white;
+  text-align: center;
+  width: 75%;
+  height: 70%;
+  opacity: 0.85;
+  padding-bottom: 3em;
+  margin: auto;
+}
+
+.contact-grid hr{
+  border-top: white dotted;
+  width: 80%;
+
+}
+.contact-grid td {
+  padding-top: 2em;
+  font-size: x-large;
+  font-style: inherit;
+  text-align: left;
+}
+.contact-grid h2{
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 35px;
+}
+.contact-grid h3{
+  font-family: cursive;
+  font-weight: bolder;
+}
+.contact-grid img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 300px;
+  padding: 2em;
+}
+.contact-grid table{
+  width:130%;
+  height:13em;
+  padding: 2em;
+  font-size: 30px;
+  text-align:left ;
+}
+
+.contact-grid p{
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+.contact-grid td{
+  font-size:60%;
+  font-family: cursive;
+  font-weight: bold;
+  margin: auto;
+}
+.contact-main span{
+  font-size:250%;
+  padding:0.2em;
+  margin: auto;
+}
+
+/*///////////////////////////////////////////////////////////Contact Page End////////////////////////////////////////////////////////////////////////*/
+.tab{
+  font-weight: bolder;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////Resume page start////////////////////////////////////////////////////////////*/
+.bar{
+  margin: auto;
+  background-color: black;
+  width: 80%;
+  text-align: center;
+  opacity: 0.8;
+  padding-left: 8cm;
+}
+.title{
+  margin: auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:white;
+}
+.bar h3{
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile{
+  text-align: right;
+  display: block;
+  margin-left: auto; 
+  width: 10%;
+  padding-right:2em ;
+}
+.resume-banner{
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 50%;
+  padding:2em;
+  
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+}
+.resume-banner h3{
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: #E0EAFC;
+}
+.resume-banner h4{
+  text-align: left;
+  padding: 0.2em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.resume-banner h5{
+  text-align: left;
+}
+.resume-banner h2{
+  text-align: right;
+  margin-left: auto;
+  padding-top: 2em;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*///////////////////////////////////////////////////////////Resume page END///////////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////About Page Start//////////////////////////////////////////////////////////////////////*/
+.about h1{
+  font-weight: bolder;
+  font-family: cursive;
+  text-align: center;
+}
+.about h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.about h5{
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////About Page END//////////////////////////////////////////////////////////////////////*/
